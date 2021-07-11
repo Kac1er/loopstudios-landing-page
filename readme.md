@@ -1,4 +1,4 @@
-![Loopstudios landing page preview](https://www.frontendmentor.io/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdz209s6jk%2Fimage%2Fupload%2Fv1554380253%2FChallenges%2Fwn3pttg6nwgymod2iqxy.jpg&w=828&q=75)
+![Loopstudios landing page preview](https://www.frontendmentor.io/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdz209s6jk%2Fimage%2Fupload%2Fv1610103659%2FChallenges%2Fkfaa5whc9ukiqp3tqseo.jpg&w=828&q=75)
 
 ## Table of contents
 
@@ -10,7 +10,7 @@
 
 #### Loopstudios landing page
 
-The design of this page comes from [frontendmentor.io](https://www.frontendmentor.io/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdz209s6jk%2Fimage%2Fupload%2Fv1610103659%2FChallenges%2Fkfaa5whc9ukiqp3tqseo.jpg&w=828&q=75)
+The design of this page comes from [frontendmentor.io](https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw)
 
 ## Technologies
 
