@@ -5,6 +5,45 @@
 	margin: 0 auto;
 }
 
+.section-padding {
+	padding: 5em 1em;
+}
+
+.section-heading {
+	text-transform: uppercase;
+	font-size: 3.2rem;
+	text-align: center;
+}
+
+.btn-animation {
+	position: relative;
+	transition: color 0.3s;
+	z-index: 0;
+
+	&::before {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		background-color: $black;
+		transform-origin: right;
+		transition: transform 0.3s;
+		transform: scaleX(0);
+		z-index: -1;
+	}
+
+	&:hover {
+		color: $white;
+
+		&::before {
+			transform-origin: left;
+			transform: scaleX(1);
+		}
+	}
+}
+
 .sticky-body {
 	overflow: hidden;
 }
