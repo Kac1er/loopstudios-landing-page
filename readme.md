@@ -22,4 +22,4 @@ Project is created with:
 
 ## Live
 
-Soon...
+You can check how this site looks right now! [Click! (hosted on netlify)](https://nifty-dubinsky-bb357f.netlify.app/)
