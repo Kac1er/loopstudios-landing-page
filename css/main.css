@@ -85,6 +85,15 @@
           transform-origin: left;
 }
 
+.link-animation-secondary {
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+.link-animation-secondary:hover {
+  opacity: 0.7;
+}
+
 /*
 font-family: 'Alata', sans-serif;
 font-family: 'Josefin Sans', sans-serif;
@@ -377,6 +386,64 @@ body {
   background-image: url("../img/mobile/creations-8.jpg");
 }
 
+.footer {
+  background-color: black;
+}
+
+.footer__box {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 0 5em 0;
+}
+
+.footer__box-info {
+  margin-bottom: 1em;
+}
+
+.footer__box-list {
+  list-style: none;
+}
+
+.footer__box-list-item {
+  text-align: center;
+  padding: 0.8em 0;
+}
+
+.footer__box-list-item a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer__box-socials {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.footer__box-socials-item {
+  margin: 0 0.5em;
+}
+
+.footer__text {
+  color: white;
+  position: absolute;
+  bottom: -30px;
+}
+
 @media (min-width: 768px) {
   .header__heading {
     font-size: 6rem;
@@ -462,6 +529,42 @@ body {
     height: 400px;
     margin: 1em;
   }
+  .footer__box {
+    display: block;
+    padding: 0 1em 4em 1em;
+  }
+  .footer__box-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footer__box-socials {
+    position: static;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  .footer__box-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+  }
+  .footer__box-list-item {
+    text-align: left;
+    margin: 0 0.5em;
+    padding: 0;
+  }
+  .footer__box-list li:nth-child(1) {
+    margin-left: 0;
+  }
+  .footer__text {
+    right: 1em;
+    bottom: 0;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -526,6 +629,9 @@ body {
   .creations__card:nth-child(8) {
     background-image: url("../img/desktop/creations-8.jpg");
     background-position: top center;
+  }
+  .footer__box-list-item a {
+    font-size: 1.8rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
